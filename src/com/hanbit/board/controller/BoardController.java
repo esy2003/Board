@@ -36,10 +36,7 @@ public class BoardController {
 				for (int i=0;i<service.countBoard();i++) {
 					list += bList[i].toString() + "\n";
 				}
-/*				for (int i=0;i<service.countBoard();i++) {
-					list += bList[i].toString() + "\n";
-				}
-*/				JOptionPane.showMessageDialog(null, "리스트 : " + list.toString());
+				JOptionPane.showMessageDialog(null, "리스트 : " + list.toString());
 				break;
 			case "4":
 				JOptionPane.showMessageDialog(null, service.findBySeq(Integer.parseInt(JOptionPane.showInputDialog("글번호를 입력하세요"))));
