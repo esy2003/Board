@@ -16,6 +16,7 @@ public class BoardController {
 			case "0":
 				JOptionPane.showMessageDialog(null, "종료");
 				return;
+				
 			case "1":
 				board = new BoardBean();
 				String[] arr = JOptionPane.showInputDialog("작성자/작성일/제목/내용").split("/");
